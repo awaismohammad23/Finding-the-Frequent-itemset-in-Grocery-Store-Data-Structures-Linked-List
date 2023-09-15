@@ -1,0 +1,2 @@
+# Finding-the-Frequent-itemset-in-Grocery-Store-Data-Structures-Linked-List
+It provides the frequent items set present in a data using linked list. It implementation is in C++ along with its test cases for the different item sets. The test cases are given the test.cpp file which includes the test cases for the items present in the data set. It is a great step in learning the implementation of linked lists and the source coe which is present in the 19I-1989.h file where the functions are implementaed accordingly.
