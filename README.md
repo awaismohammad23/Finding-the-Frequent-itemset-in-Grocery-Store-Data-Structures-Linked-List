@@ -13,20 +13,20 @@ understand the Apriori algorithm using an example step by step:
 You are given the grocery store dataset. The text file contains:
 1. The first row of the file contains a Support threshold e.g. 0.5.
 2. The second row contains the total number of transactions e.g., 6
-3. Followed by transactions. Each transaction contains a different set of items separated by
-a comma. E.g., Bread, Cheese, Egg, Juice etc
-Example:
+3. Followed by transactions. Each transaction contains a different set of items separated by a comma. E.g., Bread, Cheese, Egg, Juice etc
+
+**Example:**
 
 **0.5
 6
-Bread,Cheese,Egg,Juice
-Bread,Cheese,Juice
-Bread,Milk-,Yougrt
-Bread,+Juice@,Milk
-Cheese,Juice,Milk1
-Bread,Egg,Cheese,Juice**
+Bread, Cheese, Egg, Juice
+Bread, Cheese, Juice
+Bread, Milk-, Yougrt
+Bread, +Juice@, Milk
+Cheese, Juice, Milk1
+Bread, Egg, Cheese, Juice**
 
-The support threshold is 0.5 and there are a total no of 6 transactions and the first transaction is
+The support threshold is 0.5 and there are a total no of 6 transactions the first transaction is
 Bread, Cheese, Egg, and Juice in the above example.
 
 The support threshold determines, whether is the item popular or not.
@@ -36,7 +36,9 @@ number of baskets(transactions) for which I is a subset. We say I is frequent if
 more” (reference: Knowledge Discovery and Data Mining for Predictive Analytics Book). In our
 example, S= 0.5, and 6 is the number of transactions. So, an item is frequent if it repeats in 0.5 * 6 = 3 or
 more transactions.
-Step 01:
+
+**Step 01:**
+
 Read the file and store all the transactions in Link Lists (TransactionLL). Each transaction (e.g.
 Bread, Cheese, Egg, Juice) will be a list of items. And transactions are itself a list.
 Note: Since File I/O is a very costly operation, you are required to traverse the file once (multiple
