@@ -1,2 +1,0 @@
-First of all the given code code finds the frequent item in the dataset provided. This has to be run as a google test project. 
-It has the test cases given which are basically testing the different frequencies of the items present in the given dataset.
